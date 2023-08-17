@@ -1,14 +1,14 @@
 {
-    "name": "shicong-blog",
-    "title": "Shicong's Blog",
-    "author": "Shicong <scliubit@gmail.com>",
+    "name": "zhixing-blog",
+    "title": "Zhixing's Blog",
+    "author": "Zhixing <tzx010310@gmail.com>",
     "version": "1.0.0",
-    "homepage": "https://scliubit.github.io",
+    "homepage": "https://zhixingtu.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/scliubit/scliubit.github.io"
+        "url": "https://github.com/ZhixingTu/zhixingtu.github.io"
     },
-    "bugs": "https://github.com/scliubit/scliubit.github.io/issues",
+    "bugs": "https://github.com/ZhixingTu/zhixingtu.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.5.2",
         "grunt-banner": "~0.6.0",
