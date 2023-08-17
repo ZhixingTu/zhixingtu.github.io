@@ -1,0 +1,1 @@
+console.log("Thanks for your visiting. Blog homepage index: https://scliubit.github.io/");

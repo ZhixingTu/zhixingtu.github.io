@@ -1,0 +1,11 @@
+---
+layout: raw
+title: "CV"
+description: " "
+header-img: "img/about-bg.jpg"
+multilingual: false
+---
+<div>
+    {% capture CV_en %}{% include cv/en.html %}{% endcapture %}
+    {{ CV_en | markdownify }}
+</div>

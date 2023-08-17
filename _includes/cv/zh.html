@@ -1,0 +1,495 @@
+<header class="header"></header>
+
+<article class="container">
+    <section class="side" id="side">
+
+        <!-- 个人肖像 -->
+        <section class="me">
+            <section class="portrait">
+                <script>
+                    function loading_() {
+                        document.getElementsByClassName('avatar')[0].style.display = 'block';
+                        document.getElementsByClassName('loading')[0].style.display = 'none';
+                    }
+                </script>
+                <!-- 头像照片 -->
+
+                <div class="loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div align="center">
+                    <img class='avatar' src="../cv_en/assets/images/avatarhw.jpg" style="display:block; margin:0 auto;" alt=""
+                        onload="loading_()">
+                </div>
+                <!--<img src="assets/images/avatar.jpg" >onload="loading()"-->
+            </section>
+
+            <h1 class="name">刘仕聪</h1>
+            <h4 class="info-job">博士研究生在读 / 香港</h4><br>
+            <h3 class="hello"><a href="/cv_en" target="_self"><mark><b>English Page</b></mark></a></h3>
+
+        </section>
+
+        <!-- 基本信息 -->
+        <script>
+            function getAge() {
+                var myDate = new Date();
+                var myAge = myDate.getYear() - 98;
+                var age = document.getElementById("age");
+                // age.innerHTML = myAge;
+            }
+            getAge();
+        </script>
+        <section class="profile info-unit">
+            <h2>
+                <i class="fa fa-user" aria-hidden="true"></i>基本信息
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <label>个人信息</label> 男 / 1998年
+                </li>
+                <li>
+                    <label>英语水平</label>
+                    <span>雅思 7.5</span>
+                </li>
+                <!-- <li>
+                    <label>计算机水平</label>
+                    <span>二级</span>
+                </li> -->
+            </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="contact info-unit">
+            <h2>
+                <i class="fa fa-phone" aria-hidden="true"></i>联系方式
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <label>手机</label>
+                    <a href="tel:176****8560" target="_blank">176-****-8560</a>
+                </li>
+                <li>
+                    <label>邮箱</label>
+                    <a href="mailto:scliu@ieee.org" target="_blank">scliu [AT] ieee [DOT] org</a>
+                </li>
+                <li>
+                    <label>个人主页</label>
+                    <a href="https://scliubit.github.io/" target="_blank">scliubit.github.io</a>
+                </li>
+                <li>
+                    <label>Github</label>
+                    <a href="https://github.com/scliubit" target="_blank">scliubit</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 技能点 -->
+        <section class="skill info-unit">
+            <h2>
+                <i class="fa fa-code" aria-hidden="true"></i>技能点
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <label>MATLAB</label>
+                    <progress value="90" max="100"></progress>
+                </li>
+                <li>
+                    <label>LaTeX</label>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <label>Python</label>
+                    <progress value="90" max="100"></progress>
+                </li>
+                <li>
+                    <label>桌面运维</label>
+                    <progress value="85" max="100"></progress>
+                </li>
+                <li>
+                    <label>摸鱼</label>
+                    <progress value="100" max="100"></progress>
+                </li>
+                <!-- <li>
+                    <label>熬夜</label>
+                    <progress value="85" max="100"></progress>
+                </li> -->
+                <!-- <li>
+                    <label>论文阅读</label>
+                    <progress value="70" max="100"></progress>
+                </li> -->
+            </ul>
+        </section>
+
+        <!-- 技术栈 -->
+        <section class="stack info-unit">
+            <h2><i class="fa fa-search" aria-hidden="true"></i>研究方向</h2>
+            <hr />
+            <ul>
+                <li>
+                    <h3>
+                        稀疏信号处理
+                    </h3>
+                    <!--<span>OMP, DL-based</span>-->
+
+                    <h3>
+                        大规模MIMO系统
+                    </h3>
+                    <!--<span>AMP</span>-->
+
+                    <h3>
+                        OFDM/OTFS传输技术
+                    </h3>
+                    <!--<span>OFDM, OTFS</span>-->
+                </li>
+            </ul>
+        </section>
+    </section>
+
+    <section class="main">
+
+        <!-- 教育经历 -->
+        <section class="edu info-unit">
+            <h2>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <h3>
+                        <span>[博士] 香港城市大学 - 电子工程系</span>
+                        <time>2023.9-2027.7</time><br>
+                    </h3>
+                    <!--<p><b>Ranking</b> <mark>-/500</mark><br></p>-->
+                    <ul class="info-content">
+                        <li>获<mark>香港政府博士生奖学金</mark>(HKPFS)
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>
+                        <span>[硕士] 北京理工大学 - 信息与通信工程</span>
+                        <time>2020.9-2023.7</time><br>
+                    </h3>
+                    <!--<p><b>Ranking</b> <mark>-/500</mark><br></p>-->
+                    <ul class="info-content">
+                        <li>
+                            北京市优秀毕业生
+                        </li>
+                        <li>两篇 Q1 国际期刊 (IEEE CM, IEEE
+                            JSTSP)<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote"
+                                    rel="footnote">[4]</a></sup><sup id="fnref:6" role="doc-noteref"><a href="#fn:6"
+                                    class="footnote" rel="footnote">[6]</a></sup> 和一篇 Q2 国际期刊 (IEEE TVT)<sup
+                                id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote"
+                                    rel="footnote">[5]</a></sup>
+                        </li>
+                        <li>获两次 <mark>国家奖学金</mark> (前 0.2%)
+                        </li>
+                        <li>
+                            2022 IWCMC 学生最佳论文奖
+                        </li>
+                        <li>参与第20届IEEE/CIC ICCC 口头汇报
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <h3>
+                        <span>[本科] 北京理工大学 - 电子信息工程</span>
+                        <time>2016.9-2020.7</time>
+                    </h3>
+                    <p>排名 <mark>7/96</mark><br></p>
+                    <ul class="info-content">
+                        <li>获国家级竞赛一等奖3项, 二等奖2项
+                        </li>
+                        <li>合作英文会议论文一篇<sup id="fnref:1" role="doc-noteref"><a href="#fn:1"
+                            class="footnote" rel="footnote">[1]</a></sup>.
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- pub -->
+        <section class="pub info-unit">
+            <h2>
+                <i class="fa fa-book" aria-hidden="true"></i>Publications
+            </h2>
+            <hr />
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[7]&nbsp;<b>S. Liu</b>, <i>Z. Gao*</i>, G. Chen, Y. Su, and L. Peng, "<a
+                        href="https://iccc2023.ieee-iccc.org/" target="_blank">Transformer-based Joint Source Channel
+                        Coding for Textual Semantic Communication</a>,"
+                    Accepted by <i>IEEE/CIC ICCC 2023</i> for future publication.
+                    <!-- [<a href="https://github.com/scliubit/complex-DnCNN" target="_blank">Code</a>] -->
+                    <a href="#fnref:7" class="reversefootnote" role="doc-backlink">↩</a>
+                </span>
+            </p>
+
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[6]&nbsp;<i>Z. Gao*</i>, <b>S. Liu</b>, Z. Li, and D. Zheng, "<a
+                        href="https://arxiv.org/abs/2307.03070" target="_blank">Hybrid Knowledge-Data Driven Channel
+                        Semantic Acquisition and Beamforming for Cell-Free Massive MIMO</a>,"
+                    Accepted by <i>IEEE Journal of Selected Topics in Signal Processing</i> for future publication.
+                    (<b>SCI Q1, IF=7.5</b>)
+                    <!-- [<a href="https://github.com/scliubit/complex-DnCNN" target="_blank">Code</a>] -->
+                    <a href="#fnref:6" class="reversefootnote" role="doc-backlink">↩</a>
+                </span>
+            </p>
+
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[5]&nbsp;<b>S. Liu</b>,
+                    <i>Z. Gao*</i>, J. Zhang, M. D. Renzo and M.-S. Alouini, "<a
+                        href="https://ieeexplore.ieee.org/document/9127834" target="_blank">Deep Denoising Neural
+                        Network Assisted Compressive Channel Estimation for mmWave Intelligent Reflecting Surfaces</a>,"
+                    <i>IEEE Transactions on Vehicular Technology</i>, vol. 69, no. 8, pp. 9223-9228, Aug. 2020.
+                    (<b>SCI Q2, IF=5.379</b>)
+                    [<a href="https://github.com/scliubit/complex-DnCNN" target="_blank">Code</a>][<font color="#FF0000">ESI Highly Cited</font>]
+                    <a href="#fnref:5" class="reversefootnote" role="doc-backlink">↩</a>
+                    
+                </span>
+            </p>
+
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[4]&nbsp;<b>S. Liu</b>, <i>Z. Gao*</i>, Y. Wu, D. W. K. Ng, X. Gao, K.-K Wong, S. Chatzinotas, B.
+                    Ottersten, "<a href="https://ieeexplore.ieee.org/document/9502642" target="_blank">LEO Satellite
+                        Constellations for 5G and Beyond: How Will They Reshape Vertical
+                        Domains?</a>," in <i>IEEE Communications Magazine</i>, vol. 59, no. 7, pp. 30-36, July 2021.
+                    (<b>SCI Q1 Top, IF=9.619</b>)
+                    <a href="#fnref:4" class="reversefootnote" role="doc-backlink">↩</a>
+                </span>
+            </p>
+
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[3]&nbsp;<b>S. Liu</b>, et al., "Model-Driven Deep Learning Based Precoding for FDD Cell-Free
+                    Massive MIMO
+                    with Imperfect CSI," in <i>Proc. IWCMC 2022</i>, June, 2022. [<font color="#FF0000">Student Best</font>]
+                    <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a>
+                </span>
+            </p>
+
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[2]&nbsp;X. Zhou, K. Ying, <b>S. Liu</b>, M. Ke, Z. Gao and M.-S. Alouini, "Reconfigurable
+                    intelligent
+                    surface assisted grant-free massive access," <i>Intelligent and Converged Networks</i>, vol. 3, no.
+                    1,
+                    pp. 134-143, March 2022.
+                    <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a>
+                </span>
+            </p>
+
+            <p style="text-indent: -2.0rem;margin-left: 3.0rem;">
+                <span>[1]&nbsp;C. Zhang, H. Huang, Z. Zhang and <b>S. Liu</b>, "<a
+                        href="https://ieeexplore.ieee.org/document/8408300" target="_blank">Optimization of VCDTS
+                        algorithm in Connect6
+                        game</a>," 2018 Chinese Control And Decision Conference (CCDC), 2018, pp. 6643-6646.
+                    <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a>
+                </span>
+            </p>
+        </section>
+
+
+        <!-- 服务工作 -->
+        <section class="service info-unit">
+            <h2>
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>服务工作
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <h3>
+                        <span><del>北京理工大学 网络开拓者协会</del></span>
+                        <time><del>2017.9-2020.6</del></time>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>IEEE 期刊/会议审稿人</span>
+                        <time>2019.9-至今</time>
+                    </h3>
+                    <p>参与<mark>JSAC</mark>等期刊和<mark>GLOBECOM</mark>等会议邀请审稿
+                    </p>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>实验室网站建设维护</span>
+                        <time>2020.9-至今</time>
+                    </h3>
+                    <p>参与并领导实验室页面
+                        <a href="https://gaozhen16.github.io" target="_blank">gaozhen16.github.io</a>的建设和长期维护。
+                    </p>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>助教工作</span>
+                        <time>2021.9-至今</time>
+                    </h3>
+                    <p>通信前沿专题, 2021秋季学期
+                    </p>
+                    <p>
+                        大学生创新创业项目(本科), 2022秋季学期
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 竞赛经历 -->
+
+        <section class="competition info-unit">
+            <h2>
+                <i class="fa fa-cogs" aria-hidden="true"></i>竞赛经历
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <h3>
+                        <span>[校级] 2017.5 | 连山管控程序设计 | 三等奖</span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[国家] 2017.7 | 全国大学生计算机博弈竞赛 | <mark>冠军</mark></span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[省级] 2017.9 | 数学建模国赛（北京市赛区） | 二等奖</span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[国家] 2018.1 | 数学建模美赛 | Honorable Mention </span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[国家] 2018.7 | 全国大学生计算机博弈竞赛 | <mark>冠军</mark></span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[省级] 2018.9 | 数学建模国赛（北京市赛区） | 三等奖</span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[国家] 2019.1 | 数学建模美赛 | <mark>Meritorious Winner</mark> </span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[国家] 2021.7 | 华为-无线网络信道重构 | <mark>决赛第九名</mark> </span>
+                    </h3>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[国家] 2021.8 | 基于AI的信道反馈 | <mark>二等奖</mark> </span>
+                    </h3>
+                </li>
+
+
+            </ul>
+        </section>
+
+        <!-- 工作经历 -->
+
+        <section class="work info-unit">
+            <h2>
+                <i class="fa fa-files-o" aria-hidden="true"></i>工作经历
+            </h2>
+            <hr />
+            <ul>
+                <li>
+                    <h3>
+                        <span>[实习] 寒武纪公司－硬件开发</span>
+                        <time>2019.8 至 2019.9</time>
+                    </h3>
+                    <ul class="info-content">
+                        <li>学习寒武纪神经网络运算芯片，理解神经网络基于硬件快速实现的原理。
+                        </li>
+                        <li>参与大型网络迁移至硬件快速实现课题，将inception v3网络迁移至硬件处理，并采用C语言完成算子的定义。
+                        </li>
+                        <li>获得优秀实习团队奖励。
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>
+                        <span>[实习] 字节跳动－研发</span>
+                        <time>2022.6 至 2022.9</time>
+                    </h3>
+                    <ul class="info-content">
+                        <li>基于WebRTC协议基础自研RTC框架中UDP传输协议优化
+                        </li>
+                        <li>RTC传输协议的可靠性增强方案设计
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- 项目经验 -->
+
+        <!-- 自我评价 -->
+        <section class="work info-unit">
+            <h2>
+                <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望
+            </h2>
+            <hr />
+            <p>未来可期
+            </p>
+        </section>
+    </section>
+</article>
+
+
+
+<footer class="footer">
+    <p>© 2023 Shicong Liu. Last Modified
+        <time>2023年06月05日</time>.
+    </p>
+</footer>
+
+<!-- 侧栏 -->
+<aside>
+    <ul>
+        <li>
+            <a href="https://github.com/scliubit/scliubit.github.io" target="_blank">源代码</a>
+        </li>
+        <li>
+            <a href="https://scliubit.github.io" target="_blank">Blog</a>
+        </li>
+        <li>
+            <a href="https://scliubit.github.io/news" target="_blank">News</a>
+        </li>
+    </ul>
+</aside>
+
+<script src="../cv_en/assets/js/index.js"></script>

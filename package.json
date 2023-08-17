@@ -1,0 +1,29 @@
+{
+    "name": "shicong-blog",
+    "title": "Shicong's Blog",
+    "author": "Shicong <scliubit@gmail.com>",
+    "version": "1.0.0",
+    "homepage": "https://scliubit.github.io",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/scliubit/scliubit.github.io"
+    },
+    "bugs": "https://github.com/scliubit/scliubit.github.io/issues",
+    "devDependencies": {
+        "grunt": ">=1.5.2",
+        "grunt-banner": "~0.6.0",
+        "grunt-contrib-less": "^3.0.0",
+        "grunt-contrib-uglify": "^5.2.1",
+        "grunt-contrib-watch": "^1.1.0"
+    },
+    "scripts": {
+        "start": "bundle exec jekyll serve -w -l --host 0.0.0.0",
+        "dev": "grunt watch & npm run start",
+        "boil": "git push boilerplate boilerplate:master",
+        "push": "git push origin master --tag"
+    },
+    "dependencies": {
+        "ajv": "^8.0.0",
+        "rollup": "^3.9.1"
+    }
+}
