@@ -1,1 +1,1 @@
-console.log("Thanks for your visiting. Blog homepage index: https://scliubit.github.io/");
+console.log("Thanks for your visiting. Blog homepage index: https://zhixingtu.github.io/");
