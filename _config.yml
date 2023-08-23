@@ -63,7 +63,7 @@ kramdown:
 disqus_username: false
 
 # Valine settings
-valine_comment: true
+valine_comment: false
 
 # Netease settings
 netease_comment: false

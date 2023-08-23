@@ -14,7 +14,7 @@ layout: null
         {% for post in site.tags["feed"] %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
-				<author>Shicong Liu (scliu@ieee.org)</author>
+				<author>Zhixing Tu (zhixingtu@163.com)</author>
                 <description>{{ post.content | xml_escape }}</description>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
